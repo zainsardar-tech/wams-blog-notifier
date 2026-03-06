@@ -1,0 +1,51 @@
+# WordPress Gitignore
+# ------------------
+# Based on: https://github.com/github/gitignore/blob/main/WordPress.gitignore
+
+# Core
+# ----
+index.php
+license.txt
+readme.html
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-config.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+
+# Folders
+# -------
+wp-admin/
+wp-includes/
+wp-content/
+
+# Except the plugin itself
+!wp-content/plugins/wams-blog-notifier/
+
+# IDEs and OS
+# ----------
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+
+# Build Tools
+# -----------
+node_modules/
+vendor/
+composer.lock
+package-lock.json
+
+# Local config
+.env
+local-config.php

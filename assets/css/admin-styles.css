@@ -1,0 +1,103 @@
+/* WAMS Blog Notifier Admin Styles */
+
+/* Test Connection Result Messages */
+#wams-test-result {
+    margin-top: 10px;
+    padding: 12px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 300px;
+}
+
+#wams-test-result.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+#wams-test-result.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.wams-test-section {
+    margin-top: 15px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-left: 4px solid #25D366;
+    border-radius: 5px;
+}
+
+#wams-test-connection {
+    background: #25D366;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+#wams-test-connection:hover:not(:disabled) {
+    background: #128C7E;
+}
+
+#wams-test-connection:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+/* Responsive Admin Forms */
+@media screen and (max-width: 782px) {
+    .form-table th,
+    .form-table td {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+    
+    .form-table th {
+        padding-bottom: 5px;
+    }
+    
+    .form-table input[type="text"],
+    .form-table textarea,
+    .form-table .regular-text,
+    .form-table .large-text {
+        width: 100% !important;
+        max-width: 100%;
+    }
+    
+    .form-table input[type="color"] {
+        width: 80px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrap h1 {
+        font-size: 20px;
+    }
+    
+    .nav-tab {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+    
+    .wams-test-section {
+        padding: 10px;
+    }
+    
+    #wams-test-connection {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    #wams-test-result {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
