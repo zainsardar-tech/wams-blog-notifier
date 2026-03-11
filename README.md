@@ -44,7 +44,3 @@ Keep track of all changes in [CHANGELOG.md](file:///home/zainsardar/Desktop/Visu
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details (if applicable).
-
----
-*Created by [Zain Sardar](https://wa.me/923246270322)*
-*Powered by [Aztify WAMS](https://wams.aztify.com)*
